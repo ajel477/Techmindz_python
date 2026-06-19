@@ -38,12 +38,63 @@ a = [11,12,13,14,15,16]
 
 # lista are nested
 
-a = [11,12,[100,300],14,15]
-print(a[2][0])
+# a = [11,12,[100,300],14,15]
+# print(a[2][0])
 
 # or 
 
-b = a[2]
-print(b[0])
+# b = a[2]
+# print(b[0])
+
+# inbuilt methods
+
+#to add elements
+
+#.append() -- adds element to the end of the list
+# a = [11,12,13,14]
+# a.append(16)
+# print(a)
+# #.extend() -- adds an iterable or a mini list to the list
+# a = [11,12,13,14]
+# a.extend([56,78,"mohan"])
+# print(a)
 
 
+#.insert() -- adds elements to specific index\
+# a = [11,12,13,14,11]
+# a.insert(0, "mohan")
+# print(a)
+
+#to remove elements
+#.remove()
+# a = [11,12,13,14,15]
+# a.remove(11)
+# print(a)
+
+#.pop()
+
+# a = [11,12,13,14,32,45,56,11,11]
+# a.pop(0) # removes only the last element
+# a.pop(1) #removes element at the specified index
+# print(a)
+
+# tuple
+# collection of data
+# a = (2,3,1,"mohan",734)
+# print(a[::-1])
+
+# ordered and indexed same like lists only difference is tuple is immutable
+
+#iterable
+#str, list, tuple, set, dict
+#index based and direct looping iterable are str, list, tuple
+
+#direct looping
+#for i in a:
+#    print(i)
+
+#index based looping
+a = ["apple", "orange", "banana", "pineapple", "mango"]
+
+for i in range(5):
+    print(i, a[i])
