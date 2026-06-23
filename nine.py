@@ -94,7 +94,48 @@ a = [11,12,13,14,15,16]
 #    print(i)
 
 #index based looping
-a = ["apple", "orange", "banana", "pineapple", "mango"]
+# a = ["apple", "orange", "banana", "pineapple", "mango"]
 
-for i in range(5):
-    print(i, a[i])
+# for i in range(5):
+#     print(i, a[i])
+
+# in operator or membership operator
+
+#create a list of even numbers and od numbers from first 100 numbers
+
+
+# num = int(input("Enter the number: "))
+
+# odd = []
+# even = []
+
+# for i in range(0, num+1):
+#     if i % 2 == 0:
+#         even.append(i)
+#     else:
+#         odd.append(i)
+
+# print(f"the list of odd numbers are {odd}")
+# print(f"the list of odd numbers are {even}")
+
+#remove duplicates forom this list
+
+# c = [1,2,3,4,1,3,4,2,7,8,9,2,3,4,5]
+
+# b = []
+
+# for i in c:
+#     if i not in b:
+#         b.append(i)
+
+# print(b)
+
+
+
+# break continue and pass
+
+
+for i in range(0, 11):
+    if i == 7:
+        continue
+    print(i)

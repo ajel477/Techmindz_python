@@ -133,4 +133,60 @@
 # else:
 #     print("This is not a prime number")
 
+#to find vowels and their position in a string
+# a = input("Enter the word: ")
+
+# n = len(a)
+# vowel = "aeiou"
+# for i in range(n):
+#     if a[i] in vowel:
+#         print(f"{a[i]} at index {i}")
+
+# for i in range(1, 11):
+#     if i == 2:
+#         print("hello")
+#     elif i == 4:
+#         print("mohan")
+
+
+# Homework
+
+#input n words . make it into a sentence
+
+# n = int(input("Enter the number of words: "))
+# sentence = ""
+# for i in range(0, n):
+#     word = input(f"Enter word {i}: ")
+#     sentence = sentence + word + " "
+
+# print(sentence)
     
+
+
+#reverse of a string without using [::-1]
+
+# str = "ajel"
+# # print(str[0])
+
+# rev = ""
+
+# for i in range(len(str)):
+#     rev =  str[i] + rev
+
+# print(rev)
+
+
+# string to list of words
+a = "How are you"
+
+word = ""
+b = []
+
+for i in a:
+    if i != " ":
+        word = word + i
+    else:
+        b.append(word)
+        word = ""
+b.append(word)
+print(b)
