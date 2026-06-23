@@ -177,16 +177,27 @@
 
 
 # string to list of words
-a = "How are you"
+# a = "How are you"
 
-word = ""
-b = []
+# word = ""
+# b = []
 
-for i in a:
-    if i != " ":
-        word = word + i
-    else:
-        b.append(word)
-        word = ""
-b.append(word)
-print(b)
+# for i in a:
+#     if i != " ":
+#         word = word + i
+#     else:
+#         b.append(word)
+#         word = ""
+# b.append(word)
+# print(b)
+
+# list to string
+
+# sivdutt = ["I", "love", "panku"]
+
+# str = ""
+
+# for i in sivdutt:
+#     str = str + i + " "
+# print(str)
+

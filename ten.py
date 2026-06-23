@@ -59,8 +59,5 @@ print(userdata)
 
 userdata = {"name": "mohan", "age": 22, "location":"kochi"}
 
-for i,j in userdata.items():
-    print(i, j])
-
 
 
