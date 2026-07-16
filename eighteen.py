@@ -34,14 +34,33 @@
 # time module
 
 import time
-print(time.time()) # seconds passed since 1970 (unix epoch)
-print(time.ctime()) # returns the current local date and time as a human-readable string.
+# print(time.time()) # seconds passed since 1970 (unix epoch)
+# print(time.ctime()) # returns the current local date and time as a human-readable string.
 
-start = time.time()
-for i in range(1,11):
-    print(i)
-    time.sleep(i)
-stop = time.time()
+# start = time.time()
+# for i in range(1,11):
+#     print(i)
+#     time.sleep(i)
+# stop = time.time()
 
-print("total execution time:", stop-start)
+# print("total execution time:", stop-start)
+
+# def totaltime(n):
+#     def inner(func):
+#         def wrapper(*args, **kwargs):
+#             start = time.time()
+#             func(*args, **kwargs)
+#             stop = time.time()
+#             print(f"total time : {stop-start}")
+#         return wrapper
+#     return inner
+
+# @totaltime(10)
+# def myname(n):
+#     for i in range(n):
+#         print(i)
+#         time.sleep(1)
+
+# myname(10)
+
 
