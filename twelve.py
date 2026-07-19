@@ -16,22 +16,36 @@
 
 # to print largest and smallest int from list
 
-# a = [2,5,4,8,6,11]
+# a = [2,6,4,5,10]
+
+# largest = a[0]
+# smallest = a[0]
+
+# print(largest)
 
 # largest = a[0]
 # smallest = a[0]
 
 # for i in a:
 #     if i > largest:
-#          largest = a[i] 
+#          largest = i 
 #     if i < smallest:
-#          smallest = a[i]
+#          smallest = i
 
 # print(largest)
 # print(smallest) 
 
 # sort the list in ascending order
-a = [2,7,8,3,5,9]
+# a = [2,7,8,3,5,4]
+
+# for i in range(len(a)-1):
+#      for j in range(i+1, len(a)):
+#           if a[i] > a[j]:
+#                temp = a[i]
+#                a[i] = a[j]
+#                a[j] = temp
+
+# print(a)
 
 # for i in range(len(a)):
 #     for j in range(len(a)-1):
